@@ -14,13 +14,13 @@ function kilometerToMeter(kilometer) {
         return meter;
     }
 }
-// calling the function
-var input1 = kilometerToMeter(5);
-console.log(input1);
+
+//end of the kilometer to meter code
 
 
 
 //Budget calculator problem solve
+
 function budgetCalculator(clock, phone, laptop) {
 
     if (clock < 0 || phone < 0 || laptop < 0) {
@@ -41,14 +41,13 @@ function budgetCalculator(clock, phone, laptop) {
         return totalCost;
     }
 }
-//calling the calculator function
-var myBudget = budgetCalculator(3, 3, 2);
-console.log(myBudget);
+
 //end of calculator code
 
 
 
 //Third prblem, finding the hotel cost
+
 function hotelCost(days) {
     //for invalid entry
     if (days <= 0) {
@@ -76,14 +75,13 @@ function hotelCost(days) {
         costOfMore
     ]
 }
-//calling the funtion
-var input = hotelCost(21);
-console.log(input);
+
 //end of the hotel cost code
 
 
 
 //Fourth problem solve. Mega friend code
+
 function megaFriend(arr) {
     var templength = 0;
     var longest = [];
@@ -101,13 +99,11 @@ function megaFriend(arr) {
         }
     }
     if (longest.length == 1) {
-        return longest[0]
+        return longest[0];
     }
     else {
         return longest;
     }
 }
-//calling the funtion
-var friendsName = ["Brad pitt", "Downey jr", "Chris evans", "Tom cruise", "Di caprio", "Dulquer Salman"];
-console.log(megaFriend(friendsName));
+
 //end of the mega friend code
